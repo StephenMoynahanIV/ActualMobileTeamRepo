@@ -4,11 +4,11 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <div className="container">
+      <nav className="navbar navbar-expand bg-danger">
+        {/* <div className="container">
           <NavLink className="navbar-brand" to="/">
             UMass Finder
-          </NavLink>
+          </NavLink> */}
           <div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
@@ -33,7 +33,7 @@ function Navigation() {
                 </NavLink>
               </li>
             </ul>
-          </div>
+          {/* </div> */}
         </div>
       </nav>
     </div>
