@@ -2,7 +2,7 @@ const jobListings = [
     {
         id: 1,
         title: "Administrative Assistant",
-        image: "",
+        photo: "https://media.discordapp.net/attachments/910276735038267422/912095881749233664/image10.jpeg?width=675&height=675",
         name: "John Doe",
         tag1: "#Administration",
         tag2: "#Assistant",

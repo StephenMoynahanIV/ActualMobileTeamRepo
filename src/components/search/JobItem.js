@@ -8,7 +8,7 @@ function JobItem({listing}) {
             <h2>{listing.title}</h2>
             <div class="Row">
                 <div class="place-image">
-                    insert image
+                    <img src={listing.photo} />
                 </div>
                 <div clss="Column">
                     <p>{listing.description}</p>
