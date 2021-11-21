@@ -8,5 +8,5 @@ const placeList = [
         Address: "Computer Science Research Ctr, Rm 212",
         Photo: ,
     },
-
+];
 export default placeList;
