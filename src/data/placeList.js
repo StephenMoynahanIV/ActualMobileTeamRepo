@@ -1,11 +1,12 @@
-const peopleList = [
+const placeList = [
     {
         Name: "Mich Trimms",
-        Email: "michtrimms@umass.edu",
+        Rating: ,
         Phone: "413-545-4150",
-        Department: "College of Info & Computer Sciences",
+        Open: , 
+        Close: ,
         Address: "Computer Science Research Ctr, Rm 212",
         Photo: ,
     },
 
-export default peopleList
+export default placeList;
