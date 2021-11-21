@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Scroll from "./Scroll";
 import SearchList from "./SearchList";
-import '../styles/Search.css';
+import './styles/Search.css';
 
 function Search({ details }) {
     const [searchField, setSearchField] = useState("");
