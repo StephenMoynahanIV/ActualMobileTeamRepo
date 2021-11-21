@@ -8,7 +8,8 @@ function UMass() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
+              // src="http://placehold.it/900x400"
+              src="https://cdn.discordapp.com/attachments/910276735038267422/912099519980781608/1200px-University_of_Massachusetts_Amherst_seal_Small.jpeg"
               alt=""
             />
           </div>

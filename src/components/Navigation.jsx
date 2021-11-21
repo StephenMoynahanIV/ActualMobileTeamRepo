@@ -11,12 +11,12 @@ function Navigation() {
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/">
                   UMass
                   <span className="sr-only">(current)</span>
                 </NavLink>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Favorites">
                   Favorites
