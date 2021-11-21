@@ -9,7 +9,7 @@ import {
   UMass,
   Favorites,
   Places,
-  Blog,
+  People,
   Posts,
   Post,
 } from "./components";
@@ -21,7 +21,7 @@ ReactDOM.render(
       <Route path="/" element={<UMass />} />
       <Route path="/Favorites" element={<Favorites />} />
       <Route path="/Places" element={<Places />} />
-      <Route path="/blog" element={<Blog />}>
+      <Route path="/People" element={<People />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>
