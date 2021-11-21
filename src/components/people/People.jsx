@@ -4,7 +4,7 @@ import Search from "../search/Search"
 import placeListings from "../data/placelistings"
 import jobListings from "../data/placelistings";
 
-function Blog() {
+function People() {
   return (
     <div className="home">
       <div class="container">
@@ -16,4 +16,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default People;
