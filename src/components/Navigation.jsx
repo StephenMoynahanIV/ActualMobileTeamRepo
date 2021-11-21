@@ -11,25 +11,25 @@ function Navigation() {
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/">
-                  Home
+                  UMass
                   <span className="sr-only">(current)</span>
                 </NavLink>
-              </li>
+              </li> */}
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
-                  About
+                <NavLink className="nav-link" to="/Favorites">
+                  Favorites
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">
-                  Contact
+                <NavLink className="nav-link" to="/Places">
+                  Places
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/blog">
-                  Blog
+                <NavLink className="nav-link" to="/People">
+                  People
                 </NavLink>
               </li>
             </ul>

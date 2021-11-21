@@ -1,7 +1,5 @@
 import React from "react";
-import '../styles/JobItem.css';
-import Sample from '../assets/storeimage.png'
-
+import './styles/JobItem.css';
 
 
 function JobItem({listing}) {
@@ -10,8 +8,7 @@ function JobItem({listing}) {
             <h2>{listing.title}</h2>
             <div class="Row">
                 <div class="place-image">
-                    <img src={Sample} />
-                    {/* <img src={listing.image} /> */}
+                    <img src={listing.photo} />
                 </div>
                 <div clss="Column">
                     <p>{listing.description}</p>
@@ -41,5 +38,6 @@ function JobItem({listing}) {
         </div>
     );
 }
+
 
 export default JobItem;

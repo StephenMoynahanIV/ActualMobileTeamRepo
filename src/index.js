@@ -6,10 +6,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
   Footer,
-  Home,
-  About,
-  Contact,
-  Blog,
+  UMass,
+  Favorites,
+  Places,
+  People,
   Posts,
   Post,
 } from "./components";
@@ -18,10 +18,10 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/blog" element={<Blog />}>
+      <Route path="/" element={<UMass />} />
+      <Route path="/Favorites" element={<Favorites />} />
+      <Route path="/Places" element={<Places />} />
+      <Route path="/People" element={<People />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>
