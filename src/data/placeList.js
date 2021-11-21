@@ -8,4 +8,4 @@ const peopleList = [
         Photo: ,
     },
 
-export 
+export default peopleList
