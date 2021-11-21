@@ -7,7 +7,7 @@ function Navigation() {
       <nav className="navbar navbar-expand bg-danger">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            UMass Finder
+            UMass Finder Home
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
