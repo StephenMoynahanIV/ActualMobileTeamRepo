@@ -39,4 +39,5 @@ function JobItem({listing}) {
     );
 }
 
+
 export default JobItem;
