@@ -6,9 +6,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
   Footer,
-  Home,
-  About,
-  Contact,
+  UMass,
+  Favorites,
+  Places,
   Blog,
   Posts,
   Post,
@@ -18,9 +18,9 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/" element={<UMass />} />
+      <Route path="/Favorites" element={<Favorites />} />
+      <Route path="/Places" element={<Places />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
