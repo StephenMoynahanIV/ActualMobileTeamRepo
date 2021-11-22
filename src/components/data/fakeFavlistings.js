@@ -6,7 +6,7 @@ const jobListings = [
         name: "John Doe",
         tag1: "#Administration",
         tag2: "#Assistant",
-        rating: "3",
+        rating: "0.1",
         description: "Administrative assistant duties and responsibilities include providing administrative support to ensure efficient operation of the office. Supports managers and employees through a variety of tasks related to organization and communication. Administrative assistants are responsible for confidential and time sensitive material. Familiar with a variety of the field's concepts, practices, and procedures.",
         date: "09/12/2021",
         type: "",
@@ -21,6 +21,7 @@ const jobListings = [
         tag2: "#Analysis",
         description: "A Data Analyst, or a Digital Data Analyst, collects and analyses data to identify trends and provide clients or management with valuable information that they can use to improve marketing, operational and businesses practices. Their main duties include identifying, gathering, analysing data and making their insights accessible to the company through easy-to-understand graphs, charts, tables and reports.",
         date: "09/12/2021",
+        rating: "4.5"
     },
     {
         id: 3,

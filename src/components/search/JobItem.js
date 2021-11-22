@@ -1,5 +1,6 @@
 import React from "react";
 import './styles/JobItem.css';
+import StarRatings from '../StarRatings.js'
 
 
 function JobItem({listing}) {
@@ -18,7 +19,8 @@ function JobItem({listing}) {
                     </div>
                     <br />
                     <div>
-                        Ratings
+                        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+                        {StarRatings(parseFloat(listing.rating))}
                     </div>
                 </div>
                 <br />
