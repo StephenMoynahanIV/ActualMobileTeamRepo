@@ -21,9 +21,9 @@ function UMass() {
             </h5>
             <h5 style={{marginTop: "15px"}}>
               <blockquote>
-                + find <a href = "/Places">Places</a> in or around UMass <br />
-                + find <a href = "/People">People</a> in or related to UMass <br />
-                + navigate through your saved <a href = "/Favorites">Favorite</a> information
+                + find <u><a href = "/Places">Places</a></u> in or around UMass <br />
+                + find <u><a href = "/People">People</a></u> in or related to UMass <br />
+                + navigate through your saved <u><a href = "/Favorites">Favorite</a></u> information
               </blockquote>
             </h5>
           </div>
