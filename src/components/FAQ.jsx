@@ -11,34 +11,34 @@ export default function FAQ () {
             </h1>
             <div style={{textAlign: "center"}}>
                 <h3>
-                    Question 1: Example question
+                Which vaccines does UMass Amherst currently accept as approved vaccines? 
                 </h3>
                 <blockquote>
-                    Answer 1It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                UMass follows Massachusetts Department of Public Health guidelines on approved vaccines in Massachusetts which allow the current World Health Organization (WHO) approved vaccines: AstraZeneca, Johnson & Johnson, Moderna, Pfizer, Sinopharm, Covishield and Sinovac.  
                 </blockquote>
                 <br /><br />
 
                 <h3>
-                    Question 2: Example question
+                Do I need to quarantine when I arrive at UMass for the fall semester?
                 </h3>
                 <blockquote>
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                Current guidance from the CDC and Massachusetts DPH does not require any quarantine if you are fully vaccinated with any of the WHO-approved vaccines (Moderna, Pfizer, Astra-Zeneca, Covishield, Johnson & Johnson, Sinopharm and Sinvovac). This includes international students arriving from outside the U.S. Rather, you are recommended to monitor your symptoms and get tested three to five days after your arrival in the U.S. If you are unvaccinated or vaccinated with a non-WHO-approved vaccine, you will need to quarantine for seven days upon arrival and get tested within three to five days after arrival. You will be able to arrange a test when you arrive at UMass. For international students living on campus, please email quarantine@umass.edu to arrange your quarantine accommodations.
                 </blockquote>
                 <br /><br />
 
                 <h3>
-                    Question 3: Example question
+                Are study abroad options available for Fall 2021?
                 </h3>
                 <blockquote>
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                The International Programs Office (IPO) will continue to offer a limited range of safe study-abroad, international internship, and exchange opportunities in Fall 2021. If you have not already been placed in a program, you should contact the Education Abroad office as soon as possible.
                 </blockquote>
                 <br /><br />
 
                 <h3>
-                    Question 2: Example question
+                What is the Interim Pandemic Policy?
                 </h3>
                 <blockquote>
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                The Interim Pandemic Policy, developed by students and staff and reviewed by the Student Government Association and the Graduate Student Senate, clearly outlines expectations for the spring semester for students living either on or off campus.
                 </blockquote>
             </div>
         </div>
