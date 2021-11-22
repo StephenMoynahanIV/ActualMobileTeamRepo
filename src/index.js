@@ -12,6 +12,7 @@ import {
   People,
   Posts,
   Post,
+  FAQ,
 } from "./components";
 
 ReactDOM.render(
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route path="/" element={<UMass />} />
       <Route path="/Favorites" element={<Favorites />} />
       <Route path="/Places" element={<Places />} />
+      <Route path="/FAQ" element={<FAQ />} />
       <Route path="/People" element={<People />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
