@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand bg-danger">
+      <nav className="navbar py-4 navbar-expand bg-danger">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
             UMass Finder Home

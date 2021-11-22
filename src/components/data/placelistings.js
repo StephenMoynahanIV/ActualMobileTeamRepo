@@ -12,6 +12,7 @@ const jobListings = [
         type: "",
         salary: "",
         experience: "",
+        photo: "https://media.discordapp.net/attachments/910276735038267422/912110777295585288/Place_10.jpeg",
     },
     {   
         id: 2,

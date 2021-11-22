@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer" style={{marginTop: "130px"}}>
-      <footer class="py-5 bg-danger fixed-bottom">
+      <footer class="py-3 bg-danger fixed-bottom">
         <div class="container">
           <p class="m-0 text-center text-white">
             Copyright &copy; UMass Finder 2021
