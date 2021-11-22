@@ -23,6 +23,10 @@ function JobItem({listing}) {
                         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
                         {StarRatings(parseFloat(listing.rating))}
                         <FavoriteButton />
+                        
+                    </div>
+                    <div>
+                        <button type="button" onClick={open.bind(this, "https://www.google.com/maps/search/nirvana's+amherst+bar+and+bistro")}> Get Directions </button>
                     </div>
                 </div>
                 <br />
@@ -43,5 +47,11 @@ function JobItem({listing}) {
     );
 }
 
+function open(url) {
+    const win = window.open(url, '_blank');
+    if (win != null) {
+      win.focus();
+    }
+  }
 
 export default JobItem;
