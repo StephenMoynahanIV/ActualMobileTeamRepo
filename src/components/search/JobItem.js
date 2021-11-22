@@ -32,7 +32,9 @@ function JobItem({listing}) {
                         
                     </div>
                     <div>
+
                         <button type="button" onClick={open.bind(this, listing.location)}> Get Directions </button>
+
                     </div>
                 </div>
                 <br />

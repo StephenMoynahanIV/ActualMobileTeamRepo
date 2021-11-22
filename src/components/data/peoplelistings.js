@@ -7,6 +7,8 @@ const jobListings = [
         tag1: "dvsamson@umass.edu ",
         tag2: "413-545-8484",
         description: "Tobin Hall",
+        location: "https://www.google.com/maps/search/Tobin Hall",
+
     },
     {   
         id: 2,
@@ -16,6 +18,7 @@ const jobListings = [
         tag1: "asamoset@aux.umass.edu ",
         tag2: "413-545-2323",
         description: "Hampshire Dining Commons",
+        location: "https://www.google.com/maps/search/Hampshire Dining Commons",
     },
     {
         id: 3,
@@ -25,6 +28,7 @@ const jobListings = [
         tag1: "mcatapillar@umass.edu ",
         tag2: "413-545-2223",
         description: "Skinner Hall",
+        location: "https://www.google.com/maps/search/Skinner Hall",
     },
     {
         id: 4,
@@ -34,6 +38,7 @@ const jobListings = [
         tag1: "ahughman@research.umass.edu ",
         tag2: "413-545-8833",
         description: "Mass Ventures Building, Ste 201",
+        location: "https://www.google.com/maps/search/Mass Ventures Building, Ste 201",
     },
     {
         id: 5,
@@ -43,6 +48,7 @@ const jobListings = [
         tag1: "jamesdavis@umass.edu     ",
         tag2: "413-545-3325",
         description: "Goodell Building",
+        location: "https://www.google.com/maps/search/Goodell Building",
     },
     {
         id: 6,
@@ -52,6 +58,7 @@ const jobListings = [
         tag1: "michtrimms@umass.edu     ",
         tag2: "413-545-4150",
         description: "Computer Science Research Ctr, Rm 212",
+        location: "https://www.google.com/maps/search/Computer Science Research Ctr, Rm 212",
     },
 ];
 
