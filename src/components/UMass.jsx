@@ -17,9 +17,9 @@ function UMass() {
             <h1 class="font-weight-light">UMass People Finder Instructions</h1>
             <p>
               Welcome to UMass People Finder! You can use the tabs above to <br />
-              -find Places in or around UMass <br />
-              -find People in or related to UMass, <br />
-              -navigate through your saved favorite information
+               -find <a href = "/Places">Places</a> in or around UMass <br />
+              -find <a href = "/People">People</a> in or related to UMass, <br />
+              -navigate through your saved <a href = "/Favorites">Favorite</a> information
             </p>
           </div>
         </div>
