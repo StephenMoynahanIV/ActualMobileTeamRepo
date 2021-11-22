@@ -48,7 +48,7 @@ function Search({ details }) {
                 <input
                     className="search-bar"
                     type="search"
-                    placeholder="Search Listings"
+                    placeholder="Search by Name, Number, Type, Department..."
                     onChange={handleChange}
                 />
                 <form>

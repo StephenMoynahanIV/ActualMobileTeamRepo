@@ -32,7 +32,7 @@ function JobItem({listing}) {
                         
                     </div>
                     <div>
-                        <button type="button" onClick={open.bind(this, "https://www.google.com/maps/search/nirvana's+amherst+bar+and+bistro")}> Get Directions </button>
+                        <button type="button" onClick={open.bind(this, listing.location)}> Get Directions </button>
                     </div>
                 </div>
                 <br />
