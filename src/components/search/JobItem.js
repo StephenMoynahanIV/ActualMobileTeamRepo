@@ -7,7 +7,13 @@ import FavoriteButton from "../FavoriteButton.js";
 function JobItem({listing}) {
     return (
         <div className="job-item-container">
-            <h2>{listing.title}</h2>
+            <div class="Row">
+                <h2>
+                    {listing.title}
+                    <h5 style={{color: "maroon"}}>| {listing.name}</h5>
+                </h2>
+            </div>
+
             <div class="Row">
                 <div class="place-image">
                     <img src={listing.photo} />
@@ -31,7 +37,7 @@ function JobItem({listing}) {
                 </div>
                 <br />
             </div>
-            <div className="job-posted-details">
+            {/* <div className="job-posted-details">
                 <div className="profile-button">
                     <div className="profile-photo">
                         <img src={listing.photo} />
@@ -42,7 +48,7 @@ function JobItem({listing}) {
                 <div>
                     <a>{listing.date}</a>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -7,7 +7,6 @@ const jobListings = [
         tag1: "dvsamson@umass.edu ",
         tag2: "413-545-8484",
         description: "Tobin Hall",
-        date: "09/12/2021",
     },
     {   
         id: 2,
@@ -17,7 +16,6 @@ const jobListings = [
         tag1: "asamoset@aux.umass.edu ",
         tag2: "413-545-2323",
         description: "Hampshire Dining Commons",
-        date: "09/12/2021",
     },
     {
         id: 3,
@@ -27,7 +25,6 @@ const jobListings = [
         tag1: "mcatapillar@umass.edu ",
         tag2: "413-545-2223",
         description: "Skinner Hall",
-        date: "09/12/2021",
     },
     {
         id: 4,
@@ -37,7 +34,6 @@ const jobListings = [
         tag1: "ahughman@research.umass.edu ",
         tag2: "413-545-8833",
         description: "Mass Ventures Building, Ste 201",
-        date: "09/12/2021",
     },
     {
         id: 5,
@@ -47,7 +43,6 @@ const jobListings = [
         tag1: "jamesdavis@umass.edu     ",
         tag2: "413-545-3325",
         description: "Goodell Building",
-        date: "09/12/2021",
     },
     {
         id: 6,
@@ -57,7 +52,6 @@ const jobListings = [
         tag1: "michtrimms@umass.edu     ",
         tag2: "413-545-4150",
         description: "Computer Science Research Ctr, Rm 212",
-        date: "09/12/2021",
     },
 ];
 

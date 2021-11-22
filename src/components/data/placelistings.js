@@ -7,7 +7,7 @@ const jobListings = [
         tag2: "",
         rating: "5.0",
         description: "4 University Dr Amherst, MA 01002",
-        date: "09/12/2021",
+        date: "",
         photo: "https://media.discordapp.net/attachments/910276735038267422/912110777085874236/Place_9.jpeg"
     },
     {   
@@ -18,7 +18,6 @@ const jobListings = [
         tag2: "",
         rating: "3.0",
         description: "36 N Pleasant St Amherst, MA 01002",
-        date: "09/12/2021",
         photo: "https://media.discordapp.net/attachments/910276735038267422/912110775244566528/Place_2.jpeg?width=731&height=487"
     },
     {
@@ -29,7 +28,6 @@ const jobListings = [
         tag2: "",
         rating: "4.5",
         description: "53 Belchertown Rd Amherst, MA 01002",
-        date: "09/12/2021",
         photo: "https://media.discordapp.net/attachments/910276735038267422/912110776553205770/Place_7.jpeg?width=731&height=589",
     },
     {
@@ -40,7 +38,6 @@ const jobListings = [
         tag2: "",
         rating: "4.0",
         description: "19 Campus Center Way Amherst, MA 01003",
-        date: "09/12/2021",
         photo: "https://media.discordapp.net/attachments/910276735038267422/912110776049881098/Place_5.jpeg",
     },
     {
@@ -51,7 +48,6 @@ const jobListings = [
         tag2: "",
         rating: "3.2",
         description: "32 Orchard Hill Dr Amherst, MA 01002",
-        date: "09/12/2021",
         photo: "https://media.discordapp.net/attachments/910276735038267422/912110775823368242/Place_4.jpeg?width=731&height=487",
     },
     {
@@ -62,7 +58,6 @@ const jobListings = [
         tag2: "",
         rating: "4.2",
         description: "18 Boltwood Walk Amherst, MA 01002",
-        date: "09/12/2021",
         photo: "https://media.discordapp.net/attachments/910276735038267422/912110777295585288/Place_10.jpeg",
     },
 ];
