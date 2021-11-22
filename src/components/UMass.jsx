@@ -1,11 +1,12 @@
 import React from "react";
+import "./FAQ.css"
 
 function UMass() {
   return (
     <div className="umass">
       <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
+        <div class="col align-items-center my-5">
+          <div style={{display: "flex", justifyContent: "center", marginBottom: "50px"}}>
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
               // src="http://placehold.it/900x400"
@@ -13,14 +14,18 @@ function UMass() {
               alt=""
             />
           </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">UMass People Finder Instructions</h1>
-            <p>
-              Welcome to UMass People Finder! You can use the tabs above to <br />
-               -find <a href = "/Places">Places</a> in or around UMass <br />
-              -find <a href = "/People">People</a> in or related to UMass, <br />
-              -navigate through your saved <a href = "/Favorites">Favorite</a> information
-            </p>
+          <div>
+            <h1 class="font-weight-bold" style={{textAlign: "center", marginTop: "30px"}}>UMass People Finder Instructions</h1>
+            <h5 style={{textAlign: "center", marginTop: "15px"}}>
+              Welcome to UMass People Finder! You can use the tabs above to...
+            </h5>
+            <h5 style={{marginTop: "15px"}}>
+              <blockquote>
+                + find <a href = "/Places">Places</a> in or around UMass <br />
+                + find <a href = "/People">People</a> in or related to UMass <br />
+                + navigate through your saved <a href = "/Favorites">Favorite</a> information
+              </blockquote>
+            </h5>
           </div>
         </div>
       </div>
@@ -29,3 +34,4 @@ function UMass() {
 }
 
 export default UMass;
+
