@@ -34,7 +34,7 @@ function JobItem({listing}) {
             <div className="job-posted-details">
                 <div className="profile-button">
                     <div className="profile-photo">
-                        <img></img>
+                        <img src={listing.photo} />
                     </div>
                     &nbsp;
                     <a>{listing.name}</a>
