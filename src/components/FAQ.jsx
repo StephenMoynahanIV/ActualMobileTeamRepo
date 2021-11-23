@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function FAQ () {
     return (
         <div>
-            <h1 style={{textAlign: "center", margin: "20px", marginTop: "50px"}}>
+            <h1 style={{textAlign: "center", marginBottom: "30px", marginTop: "50px"}}>
                 Frequently Asked Questions
             </h1>
             <div style={{textAlign: "center"}}>
