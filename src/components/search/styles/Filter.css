@@ -1,13 +1,13 @@
 h2 {
-    color: #ffffff;
+    color: #000000;
 }
 
 h4 {
-    color: #ffffff;
+    color: #000000;
 }
 
 label {
-    color: #ffffff;
+    color: #000000;
 }
 
 .silder-container {
@@ -53,9 +53,11 @@ label {
     display: block;
     position: relative;
     padding-left: 35px;
-    margin-bottom: 12px;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 18px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -108,3 +110,24 @@ label {
     -ms-transform:rotate(45deg);
     transform: rotate(45deg);
 }
+
+
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+    flex-direction: row;
+  }
+  .Column {
+    display: table-cell;
+    align-items: start;
+    float: left;
+    width: 33%
+  }
+
+  .border {
+    border: 1px solid #353535;
+    border-radius: 10px;
+    position: flex;
+  }

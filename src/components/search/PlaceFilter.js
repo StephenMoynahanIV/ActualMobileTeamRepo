@@ -6,33 +6,33 @@ function Filter() {
         <div className="Row">
             <form>
                 <div className="Column">
-                <label className="checkbox-container"> Computer Science
+                <label className="checkbox-container"> Restaurant
                     <input type="checkbox" />
                     <span className="checkmark" />
                 </label>
-                <label className="checkbox-container"> Business
-                    <input type="checkbox" />
-                    <span className="checkmark" />
-                </label>
-                </div>
-
-                <div className="Column">
-                <label className="checkbox-container"> Nursing
-                    <input type="checkbox" />
-                    <span className="checkmark" />
-                </label>
-                <label className="checkbox-container"> Engineering
+                <label className="checkbox-container"> Fast Food
                     <input type="checkbox" />
                     <span className="checkmark" />
                 </label>
                 </div>
 
                 <div className="Column">
-                <label className="checkbox-container"> Natural Science
+                <label className="checkbox-container"> Bars
                     <input type="checkbox" />
                     <span className="checkmark" />
                 </label>
-                <label className="checkbox-container"> Linguistic
+                <label className="checkbox-container"> Convenience Store
+                    <input type="checkbox" />
+                    <span className="checkmark" />
+                </label>
+                </div>
+
+                <div className="Column">
+                <label className="checkbox-container"> Cafe
+                    <input type="checkbox" />
+                    <span className="checkmark" />
+                </label>
+                <label className="checkbox-container"> Bank
                     <input type="checkbox" />
                     <span className="checkmark" />
                 </label>
