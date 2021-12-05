@@ -11,7 +11,7 @@ function Places() {
   const { db } = useEasybase();
 
   const getPlaces = async() => {
-    const ebData = await db("PLACES").return().limit(10).all();
+    const ebData = await db("PLACES").return().limit(100).all();
     setEasybaseData(ebData);
     //console.log("I ran");
   }

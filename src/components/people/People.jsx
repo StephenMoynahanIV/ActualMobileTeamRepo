@@ -12,7 +12,7 @@ function People() {
   const { db } = useEasybase();
 
   const getPlaces = async() => {
-    const ebData = await db("PEOPLE").return().limit(10).all();
+    const ebData = await db("PEOPLE").return().limit(100).all();
     setEasybaseData(ebData);
     //console.log("I ran");
   }
