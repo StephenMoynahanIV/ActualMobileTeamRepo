@@ -1,5 +1,6 @@
 import React, { useCallback } from "react";
 import "./FAQ.css"
+
 import { EasybaseProvider, useEasybase } from 'easybase-react';
 import { useEffect, useState } from "react";
 
@@ -21,7 +22,8 @@ function UMass() {
     mounted();
   }, [])
 
-  console.log(easybaseData[1])
+  //console.log(easybaseData[1])
+
   const insertAsync = async() => {
     // await db("FAVORITES").insert(easybaseData[1]).one();
     await db("FAVORITES").insert({
@@ -34,7 +36,7 @@ function UMass() {
     photo: "Test",
     }).one();
   }
-  insertAsync();
+  //insertAsync();
 
   //insertAsync();
   // const insertAsync = async() => {
