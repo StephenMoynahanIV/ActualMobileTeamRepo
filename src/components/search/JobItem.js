@@ -10,7 +10,7 @@ function JobItem({listing}) {
 
     const [easybaseData, setEasybaseData] = useState([]);
     const { db } = useEasybase();
-    
+
     function insertToFavorites(location, tag1, tag2, name, title, photo, description, rating){
 
         const insertAsync = async() => {
@@ -52,15 +52,14 @@ function JobItem({listing}) {
                     </div>
                     <br />
                     <div>
-                        {/* <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+                        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
                         {StarRatings(parseFloat(listing.rating))}
-                        <FavoriteButton /> */}
                         
                     </div>
                     <div>
-                        <button type="button" onClick={open.bind(this, listing.location)}> Get Directions </button>
+                        <button type="button" onClick={open.bind(this, listing.locationtext)}> Get Directions </button>
                         <button type="button" onClick={insertToFavorites.bind(this, 
-                            listing.location, listing.tag1, listing.tag2, listing.name, listing.title,
+                            listing.locationtext, listing.tag1, listing.tag2, listing.name, listing.title,
                             listing.photo, listing.description, listing.rating)}> Add To Favorites </button>
 
                     </div>
