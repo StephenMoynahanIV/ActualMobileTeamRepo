@@ -15,8 +15,12 @@ import {
   FAQ,
 } from "./components";
 
+import { EasybaseProvider } from 'easybase-react';
+import ebconfig from './ebconfig';
+
 ReactDOM.render(
   <Router>
+    <EasybaseProvider ebconfig={ebconfig}>
     <Navigation />
     <Routes>
       <Route path="/" element={<UMass />} />
@@ -29,6 +33,7 @@ ReactDOM.render(
       </Route>
     </Routes>
     <Footer />
+    </EasybaseProvider>
   </Router>,
 
   document.getElementById("root")
