@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import "./FAQ.css"
 import { EasybaseProvider, useEasybase } from 'easybase-react';
 import { useEffect, useState } from "react";
@@ -10,18 +10,43 @@ function UMass() {
   const { db } = useEasybase();
 
   const mounted = async() => {
-    const ebData = await db("EXAMPLE").return().limit(10).all();
+    const ebData = await db("PEOPLE").return().limit(10).all();
     setEasybaseData(ebData);
-
   }
+
+
+
 
   useEffect(() => {
     mounted();
   }, [])
 
+  console.log(easybaseData[1])
+  const insertAsync = async() => {
+    // await db("FAVORITES").insert(easybaseData[1]).one();
+    await db("FAVORITES").insert({
+    title: "TestInput",
+    name: "Test",
+    tag1: "Test",
+    tag2: "Test",
+    description: "Test",
+    locationText: "Test",
+    photo: "Test",
+    }).one();
+  }
+  insertAsync();
 
-  console.log(easybaseData[0])
-  return (
+  //insertAsync();
+  // const insertAsync = async() => {
+  //   await db("FAVORITES").insert(easybaseData[0]).one();
+  // }
+  // useCallback();
+
+  // console.log(easybaseData[0])
+  // const insertAsync = async() => {
+  //   await db("FAVORITES").insert(easybaseData[0]).one();
+  // }
+    return (
     <div className="umass">
         <div class="container">
           <div class="col align-items-center my-5">
