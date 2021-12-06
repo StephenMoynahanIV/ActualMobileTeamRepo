@@ -86,12 +86,22 @@
     max-height: 60%
   }
 
-  .action-button {
+  .fav-button {
     margin-right: 0.4em;
     margin-top: 0.4em;
-    padding: 0.2em;
+    padding: 0.3em;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 15px;
     border-width: 2px;
-    background-color: rgb(233, 230, 230);
+    background-color: rgb(255, 231, 238);
+  }
+
+  .map-button {
+    margin-right: 0.4em;
+    margin-top: 0.6em;
+    padding: 0.3em;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color: rgb(233, 243, 255);
   }
