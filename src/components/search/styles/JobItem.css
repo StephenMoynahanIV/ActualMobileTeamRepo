@@ -85,3 +85,13 @@
     max-width: 60%;
     max-height: 60%
   }
+
+  .action-button {
+    margin-right: 0.4em;
+    margin-top: 0.4em;
+    padding: 0.2em;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: rgb(233, 230, 230);
+  }

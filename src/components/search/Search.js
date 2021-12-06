@@ -3,6 +3,8 @@ import Scroll from "./Scroll";
 import SearchList from "./SearchList";
 import './styles/Search.css';
 
+let a = true
+
 function Search({ details }) {
     const [searchField, setSearchField] = useState("");
 

@@ -18,7 +18,7 @@ function Places() {
 
   getPlaces();
   useCallback();
-  console.log(easybaseData);
+  // console.log(easybaseData);
 
 
   return (
