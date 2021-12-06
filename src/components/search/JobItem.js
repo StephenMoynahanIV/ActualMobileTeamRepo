@@ -41,6 +41,16 @@ function JobItem({listing}) {
         deleteAsync();
     }
 
+    const handleAddToFavorites = (e) => {
+        e.preventDefault();
+        alert('Item added to Favorites!')
+    }
+
+    const handleDeleteFromFavorites = (e) => {
+        e.preventDefault();
+        alert('Item removed from Favorites!')
+    }
+
     return (
         <div className="job-item-container">
             <div className="Row">
@@ -64,10 +74,16 @@ function JobItem({listing}) {
                     <div>
                         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
                         {StarRatings(parseFloat(listing.rating))}
-                        <button className='fav-button' type="button" onClick={insertToFavorites.bind(this, 
-                            listing.locationtext, listing.tag1, listing.tag2, listing.name, listing.title,
-                            listing.photo, listing.description, listing.rating)}> Add To Favorites </button>
-                        <button className='fav-button' type="button" onClick={deleteFromFavorites.bind(this, listing.title)}>Remove from Favorites</button>
+                        <form onSubmit={(e)=>handleAddToFavorites(e)}>
+                            <button className='fav-button' type="submit" onClick={insertToFavorites.bind(this, 
+                                                        listing.locationtext, listing.tag1, listing.tag2, listing.name, listing.title,
+                                                        listing.photo, listing.description, listing.rating)}> Add To Favorites </button>
+                        </form>
+                            
+                        <form onSubmit={(e)=>handleDeleteFromFavorites(e)}>
+                            <button className='fav-button' type="submit" onClick={deleteFromFavorites.bind(this, listing.title)}>Remove from Favorites</button>
+                        </form>
+                        
                         <br />
                         <button className='map-button' type="button" onClick={open.bind(this, listing.locationtext)}> Get Directions </button>
                     </div>
