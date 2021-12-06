@@ -37,6 +37,11 @@ function Navigation() {
                   FAQ
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/Contact">
+                  Contact Us
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>

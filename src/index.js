@@ -13,6 +13,7 @@ import {
   Posts,
   Post,
   FAQ,
+  Contact
 } from "./components";
 
 import { EasybaseProvider } from 'easybase-react';
@@ -27,6 +28,7 @@ ReactDOM.render(
       <Route path="/Favorites" element={<Favorites />} />
       <Route path="/Places" element={<Places />} />
       <Route path="/FAQ" element={<FAQ />} />
+      <Route path="/Contact" element={<Contact />} />
       <Route path="/People" element={<People />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />

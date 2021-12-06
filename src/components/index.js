@@ -6,4 +6,5 @@ export { default as Places } from "./Places";
 export { default as People } from "./people/People";
 export { default as Posts } from "./people/Posts";
 export { default as Post } from "./people/Post";
-export { default as FAQ } from "./FAQ"
+export { default as FAQ } from "./FAQ";
+export { default as Contact } from "./Contact"
