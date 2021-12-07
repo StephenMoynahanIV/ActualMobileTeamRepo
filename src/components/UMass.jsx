@@ -61,9 +61,9 @@ function UMass() {
               />
             </div>
             <div>
-              <h1 class="font-weight-bold" style={{textAlign: "center", marginTop: "30px"}}>UMass People Finder Instructions</h1>
+              <h1 class="font-weight-bold" style={{textAlign: "center", marginTop: "30px"}}>UMass Finder Instructions</h1>
               <h5 style={{textAlign: "center", marginTop: "15px"}}>
-                Welcome to UMass People Finder! You can use the tabs above to...
+                Welcome to UMass Finder! You can use the tabs above to...
               </h5>
               <h5 style={{marginTop: "15px"}}>
                 <blockquote>
