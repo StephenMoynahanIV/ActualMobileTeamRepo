@@ -53,13 +53,6 @@ function Search({ details }) {
                     placeholder="Search by Name, Number, Type, Department..."
                     onChange={handleChange}
                 />
-                <form>
-                    <select className="list-sort">
-                        <option value="all">All Listings</option>
-                        <option value="mine">Only My Listings</option>
-                        <option value="others">Other Listings</option>
-                    </select>
-                </form>
             </div>
             <br /><br />
             {searchList()}
